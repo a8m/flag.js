@@ -24,7 +24,7 @@ console.log(typeof foo, typeof bar, typeof baz);
 // Print: `string` `number` `boolean`
 ```
 
-**Turn on `help` command/flag:**
+**Turn on the `help` command/flag:**
 ```js
 // Run program: `node example/default.js -h`
 //              `node example/default.js --h`
