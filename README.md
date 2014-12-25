@@ -42,9 +42,9 @@ flag.help();
 // The program print:
 /*
  Usage:
- --foo="foo": foo bar
- --bar=888: bar bar
- --baz=false: baz bar
+ --foo="foo": This is message describe foo
+ --bar=888:   This is message describe bar
+ --baz=false: This is message describe baz
  */
  // and then call exit() automatically.
 ```
