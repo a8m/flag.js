@@ -23,9 +23,9 @@ $ npm install --save flag.js
 // Run program: `node index.js -foo=bar -bar=777 --baz=true`
 var flag = require('flag.js');
 
-var foo = flag('foo', 'foo', 'This is message describe foo');
-var bar = flag('bar', 888,   'This is message describe bar');
-var baz = flag('baz', false, 'This is message describe baz');
+var foo = flag('foo', 'foo');
+var bar = flag('bar', 888);
+var baz = flag('baz', false);
 
 console.log(foo, bar, baz);
 // Print: bar 777 true
