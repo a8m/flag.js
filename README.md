@@ -8,6 +8,8 @@ flag.js
 [![Downloads][downloads-image]][downloads-url]
 > cli flag parsing
 
+![Screenshot](https://raw.githubusercontent.com/a8m/flag.js/master/example/flagjs.gif)
+
 ## Install
 
 ```sh
@@ -15,6 +17,7 @@ $ npm install --save flag.js
 ```
 
 ##Usage
+####`.flag(name, fallback, message)`
 **Default option:**
 ```js
 // Run program: `node index.js -foo=bar -bar=777 --baz=true`
