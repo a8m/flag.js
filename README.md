@@ -1,5 +1,12 @@
 flag.js
 =====
+[![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
+[![Dependency Status][david-image]][david-url]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
+> cli flag parsing
 
 ## Install
 
@@ -48,3 +55,19 @@ flag.help();
  */
  // and then call exit() automatically.
 ```
+
+## License
+
+MIT © [Ariel Mashraki](https://github.com/a8m)
+[npm-image]: https://img.shields.io/npm/v/flag.js.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/flag.js
+[travis-image]: https://img.shields.io/travis/a8m/flag.js.svg?style=flat-square
+[travis-url]: https://travis-ci.org/a8m/flag.js
+[coveralls-image]: https://img.shields.io/coveralls/a8m/flag.js.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/a8m/flag.js
+[david-image]: http://img.shields.io/david/a8m/flag.js.svg?style=flat-square
+[david-url]: https://david-dm.org/a8m/flag.js
+[license-image]: http://img.shields.io/npm/l/flag.js.svg?style=flat-square
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/flag.js.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/flag.js
